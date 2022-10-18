@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import { goto } from '$app/navigation';
+
+	// import type { PageData } from './$types';
+	// const auth = false;
+	// const route: string = auth ? "'/user/home'" : "'public/login'";
+	// goto(route);
+	// export let data: PageData;
+</script>
+
+<h1>LANDING PAGE</h1>
+<a href="/login">Login</a>
+<br />
+<a href="/home">Home</a>
